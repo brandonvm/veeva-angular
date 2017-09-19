@@ -2397,7 +2397,7 @@ gulp-zip@^4.0.0:
     through2 "^2.0.1"
     yazl "^2.1.0"
 
-gulp@^3.9.1:
+gulp@^3.9.0, gulp@^3.9.1:
   version "3.9.1"
   resolved "https://registry.yarnpkg.com/gulp/-/gulp-3.9.1.tgz#571ce45928dd40af6514fc4011866016c13845b4"
   dependencies:
@@ -2414,6 +2414,14 @@ gulp@^3.9.1:
     tildify "^1.0.0"
     v8flags "^2.0.2"
     vinyl-fs "^0.3.0"
+
+gulpclass@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/gulpclass/-/gulpclass-0.1.2.tgz#d26f5c39dc399e11c45a908787c86490bc31e850"
+  dependencies:
+    gulp "^3.9.0"
+    merge2 "^0.3.6"
+    run-sequence "^1.1.5"
 
 gulplog@^1.0.0:
   version "1.0.0"
@@ -3401,6 +3409,10 @@ merge-stream@^1.0.0:
   resolved "https://registry.yarnpkg.com/merge-stream/-/merge-stream-1.0.1.tgz#4041202d508a342ba00174008df0c251b8c135e1"
   dependencies:
     readable-stream "^2.0.1"
+
+merge2@^0.3.6:
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/merge2/-/merge2-0.3.7.tgz#18e00a00671090de1165025fc86bd3e77c207f63"
 
 merge@^1.2.0:
   version "1.2.0"
@@ -4544,7 +4556,7 @@ rimraf@2, rimraf@^2.2.6, rimraf@^2.2.8, rimraf@^2.4.0, rimraf@^2.5.1, rimraf@^2.
   dependencies:
     glob "^7.0.5"
 
-run-sequence@^1.2.2:
+run-sequence@^1.1.5, run-sequence@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/run-sequence/-/run-sequence-1.2.2.tgz#5095a0bebe98733b0140bd08dd80ec030ddacdeb"
   dependencies:
