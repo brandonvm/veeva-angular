@@ -1,0 +1,35 @@
+// Interstate Bold
+@font-face {
+    font-family: "Interstate-Bold";
+    src: url('#{$font-url}Interstate-Bold.ttf') format("truetype"),
+         url('#{$font-url}Interstate-Bold.woff2') format('woff2'),
+         url('#{$font-url}Interstate-Bold.woff') format('woff'),
+         url('#{$font-url}Interstate-Bold.eot') format('eot');
+  }
+  
+  // Interstate Regular
+  @font-face {
+    font-family: "Interstate-Regular";
+    src: url('#{$font-url}Interstate-Regular.ttf') format("truetype"),
+         url('#{$font-url}Interstate-Regular.woff2') format('woff2'),
+         url('#{$font-url}Interstate-Regular.woff') format('woff'),
+         url('#{$font-url}Interstate-Regular.eot') format('eot');
+  }
+  
+  // Interstate Black Regular
+  @font-face {
+    font-family: "InterstateBlack-Regular";
+    src: url('#{$font-url}InterstateBlack-Regular.ttf') format("truetype"),
+         url('#{$font-url}InterstateBlack-Regular.woff2') format('woff2'),
+         url('#{$font-url}InterstateBlack-Regular.woff') format('woff'),
+         url('#{$font-url}InterstateBlack-Regular.eot') format('eot');
+  }
+  
+  // Interstate Light Regular
+  @font-face {
+    font-family: "InterstateLight-Regular";
+    src: url('#{$font-url}InterstateLight-Regular.ttf') format("truetype"),
+         url('#{$font-url}InterstateLight-Regular.woff2') format('woff2'),
+         url('#{$font-url}InterstateLight-Regular.woff') format('woff'),
+         url('#{$font-url}InterstateLight-Regular.eot') format('eot');
+  }

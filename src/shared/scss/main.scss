@@ -1,0 +1,10 @@
+// Import Core Styles
+@import "./core/variables";
+@import "./core/fonts";
+@import "./core/typo";
+@import "./core/utils";
+@import "./core/layout";
+
+// Import Components
+@import "./components/nav";
+@import "./components/footer";

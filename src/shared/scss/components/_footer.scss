@@ -1,0 +1,32 @@
+footer {
+    background: $primary-color;
+    bottom: 0;  
+    height: 50px;  
+    position: absolute;    
+    width: 100%;
+
+    ul {
+        @include flexCenter();
+    }
+
+    li {
+        @include flexCenter();        
+        border-right: 1px solid $white-color;
+        flex-grow: 1;
+        height: 100%;
+        padding: 0 20px;
+        &:last-child {
+            border: none;
+        }
+    }
+
+    a {        
+        color: $white-color;
+        font-family: $font-interstate-regular;
+        font-size: 0.9em;
+        text-decoration: none;
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
+
+}

@@ -1,0 +1,21 @@
+nav {    
+    display: flex;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+
+    h1 {
+        margin-left: 50px;
+    }
+
+    .header-gradient {
+        height: 50%;
+    }
+
+    .ohg-logo {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 150px;
+    }
+}

@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>veeva-home</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <meta name="format-detection" content="telephone=no">  
+        <!-- Slide CSS -->
+        <link rel="stylesheet" href="./assets/slide.css"/>  
+    </head>
+    
+    <body>
+        <!-- Display the app slide -->
+        <app-slide></app-slide>
+
+        <!-- Load libraries -->
+        <!-- Polyfill(s) for older browsers -->
+        <script src="../shared/js/libs/core-js/client/shim.min.js"></script>
+        <script src="../shared/js/libs/zone.js/dist/zone.js"></script>
+        <script src="../shared/js/libs/reflect-metadata/Reflect.js"></script>
+        <script src="../shared/js/libs/systemjs/dist/system.src.js"></script>
+    
+        <!-- Configure SystemJS -->
+        <script src="../shared/js/systemjs.config.js"></script>
+        <script>System.import('app').then(null, console.error.bind(console));</script>    
+    </body>
+</html>
