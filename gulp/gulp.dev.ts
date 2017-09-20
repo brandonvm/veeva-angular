@@ -64,16 +64,4 @@ export class GulpDev {
             .pipe(gulp.dest(config.destinationPath));
     }
 
-    /**
-     * Watch for changes
-     */
-    @Task()
-    watch() {
-        gulp.watch(config.typeScriptSource,['tsbuild']);
-        gulp.watch(config.htmlSource,['tsbuild', 'html']);
-        gulp.watch(config.jsSource,['js']);
-        gulp.watch(config.scssSource,['styles']);
-        gulp.watch(config.assetsSource,['assets']);
-    }
-
 }

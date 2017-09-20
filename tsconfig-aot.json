@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "es2015",
+      "moduleResolution": "node",
+      "sourceMap": false,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "lib": [ "es2015", "dom" ],
+      "noImplicitAny": true,
+      "suppressImplicitAnyIndexErrors": true
+    },
+    "exclude": [
+      "node_modules",
+      "template",
+      "build",
+      "gulp",
+      "src"
+    ],
+    "files": [
+      ".tmp/veeva-home/app/main.ts",
+      ".tmp/veeva-home/app/slide.module.ts",
+      ".tmp/veeva-about/app/main.ts",
+      ".tmp/veeva-about/app/slide.module.ts",
+      ".tmp/shared/js/module/shared.module.ts"
+    ],
+    "angularCompilerOptions": {
+      "genDir": "aot",  
+      "skipMetadataEmit" : true
+    }
+  }
+  

@@ -4,6 +4,7 @@ const gulpPath = "./gulp",
         `${gulpPath}/gulp.common.ts`,
         `${gulpPath}/gulp.dev.ts`,
         `${gulpPath}/gulp.prod.ts`,
+        `${gulpPath}/gulp.aot.ts`,
         `${gulpPath}/gulpfile.ts`
     ];
 
