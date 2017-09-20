@@ -6,3 +6,5 @@ import { SlideModule } from './slide.module';
 const platform = platformBrowserDynamic();
 
 platform.bootstrapModule(SlideModule);
+
+            
